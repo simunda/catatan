@@ -8,9 +8,9 @@ echo "rm /etc/nginx/sites-enabled/default"
 sleep 2s
 sudo rm /etc/nginx/sites-enabled/default >> ~/proxmox-internet.log 2>&1
 
-echo "wget https://github.com/simunda/catatan/blob/3563f28b58f76d5b4a83c0a7e95fced236ecc8e8/proxmox.conf"
+echo "wget https://raw.githubusercontent.com/simunda/catatan/main/proxmox.conf"
 sleep 2s
-https://github.com/simunda/catatan/blob/3563f28b58f76d5b4a83c0a7e95fced236ecc8e8/proxmox.conf -P /etc/nginx/conf.d/ >> ~/proxmox-internet.log 2>&1
+wget https://raw.githubusercontent.com/simunda/catatan/main/proxmox.conf -P /etc/nginx/conf.d/ >> ~/proxmox-internet.log 2>&1
 
 echo "nginx -t"
 sleep 2s
