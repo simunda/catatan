@@ -7,3 +7,6 @@ https://www.digitalocean.com/community/tutorials/how-to-enable-remote-desktop-pr
 
 proxmox over internet
 https://pve.proxmox.com/wiki/Web_Interface_Via_Nginx_Proxy
+
+KVM debian 10
+https://www.linuxtechi.com/install-configure-kvm-debian-10-buster/
