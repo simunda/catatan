@@ -10,3 +10,5 @@ https://pve.proxmox.com/wiki/Web_Interface_Via_Nginx_Proxy
 
 KVM debian 10
 https://www.linuxtechi.com/install-configure-kvm-debian-10-buster/
+
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
